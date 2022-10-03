@@ -1,0 +1,47 @@
+.App{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 97vh;
+    background-color: rgb(216, 235, 241);
+}
+.outer-div{
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 60%;
+    height: 90%;
+    background-color:lightblue;
+}
+
+.form{
+    margin-left: 15rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.text{
+    display: flex;
+    gap: 2rem;
+}
+.text-input {
+    background-color: rgb(231, 228, 228);
+    border: none;
+    outline: none;
+    height: 25px;
+    font-size: 1rem;
+}
+.button-input{
+    width: 80px;
+    border: none;
+    height: 25px;
+    border-radius: 5px;
+}
+.button-input:hover{
+    cursor: pointer;
+    background-color: rgba(84, 75, 143, 0.842);
+    color: whitea;
+}
+.orders{
+    
+    height: 50vh;
+    overflow-y: auto;
+}
